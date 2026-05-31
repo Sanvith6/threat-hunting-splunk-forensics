@@ -1,0 +1,51 @@
+Date,Time,EventID,Level,Source,Computer,User,Description,IP_Address,LogonType,Status
+2024-11-14,08:01:12,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,An account was successfully logged on.,192.168.1.10,2,SUCCESS
+2024-11-14,08:03:45,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,alice.brown,An account was successfully logged on.,192.168.1.22,2,SUCCESS
+2024-11-14,08:15:30,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,bob.jones,An account was successfully logged on.,192.168.1.15,2,SUCCESS
+2024-11-14,08:22:10,4648,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,svc-backup,A logon was attempted using explicit credentials.,192.168.1.33,3,SUCCESS
+2024-11-14,08:45:00,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,An account was successfully logged on.,192.168.1.10,2,SUCCESS
+2024-11-14,09:00:01,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:03,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:05,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:07,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:09,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:11,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:13,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:15,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:17,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:19,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:21,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,root,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:00:23,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,root,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:00:25,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,root,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:00:27,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,admin,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:00:29,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,admin,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:00:31,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,admin,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:00:33,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,guest,An account failed to log on.,185.220.101.47,3,FAILURE - Account disabled
+2024-11-14,09:00:35,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,sshd,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:00:37,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,user,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:39,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,user,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:00:41,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,test,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:00:43,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,test,An account failed to log on.,185.220.101.47,3,FAILURE - Unknown username
+2024-11-14,09:01:55,4740,Critical,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,A user account was locked out.,185.220.101.47,3,ACCOUNT LOCKED
+2024-11-14,09:05:10,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,alice.brown,An account was successfully logged on.,192.168.1.22,2,SUCCESS
+2024-11-14,09:12:44,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,bob.jones,An account was successfully logged on.,192.168.1.15,2,SUCCESS
+2024-11-14,09:15:00,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:15:02,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:15:04,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:15:06,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:15:08,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,09:15:24,4740,Critical,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,A user account was locked out.,185.220.101.47,3,ACCOUNT LOCKED
+2024-11-14,09:20:00,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,svc-backup,An account was successfully logged on.,192.168.1.33,3,SUCCESS
+2024-11-14,09:30:15,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,alice.brown,An account was successfully logged on.,192.168.1.22,2,SUCCESS
+2024-11-14,09:45:00,4688,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,alice.brown,A new process has been created.,192.168.1.22,2,SUCCESS
+2024-11-14,10:00:00,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,bob.jones,An account was successfully logged on.,192.168.1.15,2,SUCCESS
+2024-11-14,10:05:33,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,10:05:35,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,10:05:37,4625,Warning,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account failed to log on.,185.220.101.47,3,FAILURE - Wrong password
+2024-11-14,10:05:39,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,An account was successfully logged on.,185.220.101.47,3,SUCCESS
+2024-11-14,10:06:10,4672,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,Special privileges assigned to new logon.,185.220.101.47,3,SUCCESS
+2024-11-14,10:06:45,4688,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,A new process has been created. cmd.exe,185.220.101.47,3,SUCCESS
+2024-11-14,10:07:01,4688,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,A new process has been created. net user hacker P@ss123 /add,185.220.101.47,3,SUCCESS
+2024-11-14,10:07:15,4688,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,administrator,A new process has been created. net localgroup administrators hacker /add,185.220.101.47,3,SUCCESS
+2024-11-14,10:30:00,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,john.smith,An account was successfully logged on.,192.168.1.10,2,SUCCESS
+2024-11-14,11:00:00,4624,Information,Microsoft-Windows-Security-Auditing,CORP-DC01,alice.brown,An account was successfully logged on.,192.168.1.22,2,SUCCESS
