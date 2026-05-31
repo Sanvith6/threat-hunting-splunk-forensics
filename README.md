@@ -23,15 +23,15 @@ gantt
     
     section Recon & Access
     Adversary Password Spraying (30x Failed Logons)    :active, recon, 09:00, 09:15
-    Account Lockout: administrator                   :crit, lockout1, 09:01, 09:02
-    Account Lockout: john.smith                       :crit, lockout2, 09:15, 09:16
+    Account Lockout - administrator                   :crit, lockout1, 09:01, 09:02
+    Account Lockout - john.smith                      :crit, lockout2, 09:15, 09:16
     
     section Exploitation
     Successful Active Directory Breach                :active, breach, 10:05, 10:06
     Special Privilege Allocation                      :priv, privs, 10:06, 10:07
     
     section Persistence
-    Backdoor Account Creation (`hacker`)              :active, backdoor, 10:07, 10:07
+    Backdoor Account Creation (hacker)                :active, backdoor, 10:07, 10:07
     Domain Admin Privilege Escalation                 :active, admin_esc, 10:07, 10:08
 ```
 
